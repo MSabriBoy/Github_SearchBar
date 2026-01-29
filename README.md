@@ -1,5 +1,8 @@
 # 🚀 Dev-Detective — GitHub User Search & Battle App
+## 🔗 Live Demo
+https://msabriboy.github.io/Github_SearchBar/
 
+## 📌 Overview
 Dev-Detective is a modern JavaScript web application that connects to the GitHub REST API and allows users to:
 
 - 🔍 Search any GitHub profile  
@@ -10,9 +13,6 @@ Dev-Detective is a modern JavaScript web application that connects to the GitHub
 This project was built as part of a Week-3 learning challenge focused on:
 
 APIs • Fetch • Async/Await • JSON • Error Handling • UI States
-
-## 🔗 Live Demo
-https://msabriboy.github.io/Github_SearchBar/
 
 ## ✨ Features
 
