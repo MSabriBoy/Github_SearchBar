@@ -1,0 +1,59 @@
+<!-- Github search App -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dev-Detective</h1>
+
+        <div class="toggle-wrapper">
+            <span>Search</span>
+
+            <label class="switch">
+                <input type="checkbox" id="mode-toggle">
+                <span class="slider"></span>
+            </label>
+
+            <span>Battle</span>
+
+        </div>
+        <div id="search-mode">
+            <form id="search-form">
+                <input id="user-input" type="search" placeholder="Search for github Users..." required>
+                <button type="submit">Search</button>
+
+            </form>
+
+            <p id="loading" class="hidden">Loading...</p>
+            <p id="error" class="hidden"></p>
+
+            <div id="profile" class="profile hidden"></div>
+            <div id="repos" class="repos hidden"></div>
+        </div>
+
+        <div id="battle-mode" class="hidden">
+
+            <form id="battle-form">
+                <input type="search" id="user1" placeholder="First GitHub user" required>
+                <input type="search" id="user2" placeholder="Second GitHub user" required>
+
+                <button type="submit">Battle!</button>
+            </form>
+
+            <div id="battle-result" class="battle-result hidden"></div>
+
+
+        </div>
+
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

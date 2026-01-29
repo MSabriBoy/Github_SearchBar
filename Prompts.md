@@ -1,0 +1,1 @@
+Both of my profilediv card and repo card getting the green and red border, but it should be the profilediv who get the color border and repo card remain same as normal fix it for me.
